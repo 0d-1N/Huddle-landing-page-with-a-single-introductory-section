@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&family=Poppins:wght@400;600&display=swap');
+:root{
+    --Violet: hsl(257, 40%, 49%);
+    --Soft-Magenta: hsl(300, 2%, 75%);
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  
+}
+
+body{
+    height: 100vh;
+    background-image: url(images/bg-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: var(--Violet);
+    background-size: contain;
+    color: white;
+    overflow: hidden;
+    font-family: 'Open Sans', sans-serif;
+}
+.header-landing-page{
+    padding: 30px;
+}
+.header-landing-page img{
+    width: 150px;
+}
+
+
+.container-illusatration-mockups{
+    height: 300px;
+    position: relative;
+}
+
+.container-illusatration-mockups img{
+    width: 82%;
+    position: absolute;
+    top: 27px;
+    left: 39px;
+}
+
+.container-description-huddle-landing{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+
+.container-description-huddle-landing h1{
+    margin: auto;
+    width: 80%;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+p{
+    width: 90%;
+    margin:10px auto;
+}
+
+.register-huddle-landing{
+    width: 150px;
+    padding: 15px;
+    margin: auto;
+    background-color: unset;
+    border: unset;
+    background-color: white;
+    color: var(--Violet);
+
+    
+}
+
+
+footer{
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+}
+div{
+    width: 50px;
+    height: auto;
+    margin: 10px;
+    border: 1px solid black;
+}
+i{
+    width: 30px;
+    height: 30px;
+    padding:5px;
+    border: 1px solid white;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    text-align: center;
+}
+.icon-fb{
+    padding: 5px;
+}
